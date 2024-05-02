@@ -2519,6 +2519,27 @@ blockquote {
     font-size: 5rem;
     font-weight: 600;
     line-height: 1.1;
+    
+}
+.heading-style-hrjn1 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+}
+.heading-style-hrjn2 {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+.heading-style-hrj1 {
+    margin-top: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.1;
     text-align: center;
 }
 

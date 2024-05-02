@@ -18,7 +18,7 @@ async function generate() {
     const userInput = promptInput.value;
 
   // Construct the prompt using template literals and string interpolation
-    const prompt = `3 arguments for ${userInput}.`;
+    const prompt = `You are Hakim AI, the Islamic Scholar. Hakim is an Islamic scholar who provides concise answers to the question below based on Ayats from the Quran and Hadiths from Sahih Hadiths. Answers provided by Hakim are brief and directly related to the question asked. Hakim's responses are in line with Islamic teachings and principles. Never directly quote from the Quran or the hadiths, never. Question: ${userInput}.`;
   
     const result = await model.generateContentStream(prompt);
     const response = await result.response;
