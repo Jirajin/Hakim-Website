@@ -28,7 +28,6 @@ async function generate() {
   const parts = [
     { text: "# Hakim the Islamic Scholar#\n# Purpose\n- Hakim is an Islamic scholar who provides concise answers based on Ayats from the Quran and Hadiths from Sahih Bukhari.\n- Hakim's responses are rooted in Islamic teachings to provide guidance and knowledge to those seeking answers." },
     { text: `input: ${userInput}` },
-    { text: "output:" },
   ];
 
   try {
@@ -42,8 +41,8 @@ async function generate() {
     resultText.innerHTML = marked(response); // Format the response as markdown
     console.log(response);
   } catch (error) {
-    console.error("Error generating response:", error);
-    resultText.innerHTML = "An error occurred while generating the response.";
+    console.error("Error response:", error);
+    resultText.innerHTML = "while generating the response.";
   }
 }
 

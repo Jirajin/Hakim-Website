@@ -9636,7 +9636,7 @@ __p+='`), M
                 d = Si.env(),
                 h, T, _, A = /list-manage[1-9]?.com/i,
                 y = t.debounce(function() {
-                    g("Oops! This page has improperly configured forms. Please contact your website administrator to fix this issue.")
+                    g("Oops! This page has improperly configured forms. Please ask your website administrator to fix this issue.")
                 }, 100);
             r.ready = r.design = r.preview = function() {
                 x(), !d && !h && R()
